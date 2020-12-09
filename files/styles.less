@@ -1,0 +1,111 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+  // find + replace
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
+  // border-color: red;
+}
+
+.theme-monokai {
+  // Customize font color & style for comment
+  .syntax--comment {
+    color: hsl(220, 10%, 55%);; // hsl(hue, saturation, lightness)
+    font-style: italic;
+  }
+
+  //Customize font size for Project Windows
+  .tree-view {
+    font-size: 120%;
+  }
+
+  //Customize font color for Project Windows
+  li.file.entry.list-item, .list-tree {
+    color: #d0d0d0;
+  }
+  
+  //Customize font size & color for Project Windows title & Filename tab title
+  .tab-bar .tab {
+    font-size: 120%;
+    color: #d0d0d0;
+  }
+
+  //Adjust tab close icon location
+  .tab-bar .tab .close-icon
+  {
+    // padding: 0em;
+    margin-right: 0.5em;
+    // margin-top: 10px;
+    // line-height: 12px;
+    // height: 12px;
+  }
+
+  //Customize font color & background for active editor tab title
+  .texteditor.tab.sortable.active::before, .texteditor.tab.sortable.active, .texteditor.tab.sortable.active::after {
+    //background-image: -webkit-linear-gradient(top, #35404a, #4A7FB2);
+    background-image: -webkit-linear-gradient(top, #f92672, #f92672);
+    color: #eeeeee;
+    font-weight: bold;
+  }
+
+  //Customize style/color for find + replace
+  .find-result .region.region.region,
+  .current-result .region.region.region {
+    border-radius: 2px;
+    background-color: @syntax-result-marker-color;
+    transition: border-color .4s;
+  }
+  .find-result .region.region.region {
+    border: 2px solid transparent;
+  }
+  .current-result .region.region.region {
+    border: 2px solid @syntax-result-marker-color-selected;
+    transition-duration: .1s;
+    border-color: yellow;
+  }
+
+  //Customize fontsize for Project Find Results
+  .preview-pane {
+    font-size: 125%;
+  }
+
+  //Customize color/style of bracket-matcher
+  .bracket-matcher .region {
+      border-bottom: 1px solid #de9536;
+      background-color: #ffd900;
+      opacity: 0.7;
+  }
+  
+  //Customize log font color/size for git-plus package
+  .git-plus-log {
+    #git-plus-commits {
+      color : #d0d0d0;
+      font-size: 120%;
+    }
+  }
+}
