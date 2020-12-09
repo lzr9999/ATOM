@@ -32,9 +32,9 @@
 
 ## 如何把Ctage Timeout延長
 
-![](.\image\ctags_settings_1.png)
+![](./image/ctags_settings_1.png)
 
-![](.\image\ctags_settings_2.png)
+![](./image/ctags_settings_2.png)
 
 ## Atom 改成 VS code look and feel
 
