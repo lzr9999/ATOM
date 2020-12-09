@@ -207,8 +207,10 @@
 ![](./image/toobar_git_time_machine.png)
 
 
-再來移動下面時間軸點選一個commit, 此時會切割兩的視窗, 下面左邊紅條是你選取的commit, 右邊的綠條就是你的最新的commit
+再來移動下面時間軸點選一個commit, 此時會切割兩的視窗呈現file diff, 然後下面時間軸左邊紅色條是你選取的commit, 右邊的綠色條就是你的最新的commit
 
 ![](./image/git_time_machine_letfbar.png)
 
+
+再來你可以試著移動綠色條, 按下Shift+Click來點選你想要比較的commit
 ![](./image/git_time_machine_rightbar.png)
