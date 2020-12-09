@@ -40,11 +40,11 @@
 
 - Step 1 . 先安裝Theme "Atom-Visual-Studio-Code" & "Monokai"
 
-![](.\image\VSCode_Style_1.png)
+![](./image/VSCode_Style_1.png)
 
 - Step 2. 裝下面列的package
 
-![](.\image\VSCode_Style_2.png)
+![](./image/VSCode_Style_2.png)
 
 - Step 3. 將下面copy到style.less, 如果還是習慣原來的one dark UI, 可以將**.theme-monokai**的"**monokai**"改成"**one-dark-ui**", 然後將 .bracket-matcher的backgound-color改成green會比較清楚
 
@@ -167,9 +167,9 @@
 
 請把tree-view package的**Auto Reveal**給開啟, 這樣當你開檔案時, 左邊的project window會自動捲到該目錄下
 
-![](.\image\Auto_Reveal1.png)
+![](./image/Auto_Reveal1.png)
 
-![](.\image\Auto_Reveal2.png)
+![](./image/Auto_Reveal2.png)
 
 ## File list字形加大
 
@@ -190,6 +190,6 @@
 
  首先先安裝git-time-machine package
 
-![](.\image\git_time_machine.png)
+![](./image/git_time_machine.png)
 
 再來如果你有安裝toolbar的套件
