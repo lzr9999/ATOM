@@ -187,9 +187,28 @@
 
 
 ## Git Time Machine
+這是你的工作目錄是checkout出來有.git目錄時可以用的
 
- 首先先安裝git-time-machine package
+首先先安裝git-time-machine package
 
 ![](./image/git_time_machine.png)
 
-再來如果你有安裝toolbar的套件
+再來如果你有安裝toolbar的套件, 你可以降下面的設定copy到C:\Users\\**your user name**\\.atom\\**toolbar.cson**裡面
+ ```
+  {
+    type: "button"
+    iconset: "icomoon"
+    icon: "history"
+    callback: "git-time-machine:toggle"
+    tooltip: "git time machine"
+  }
+ ```
+此時左邊的toolbar就會有以一個新的icon, 你可以點選這個icon, 或者直接按"A+T" hotkey啟動git-time-machine
+![](./image/toobar_git_time_machine.png)
+
+
+再來移動下面時間軸點選一個commit, 此時會切割兩的視窗, 下面左邊紅條是你選取的commit, 右邊的綠條就是你的最新的commit
+
+![](./image/git_time_machine_letfbar.png)
+
+![](./image/git_time_machine_rightbar.png)
