@@ -28,13 +28,15 @@
 
 **border-style**    是邊框Style
 
-
+------
 
 ## 如何把Ctage Timeout延長
 
 ![](./image/ctags_settings_1.png)
 
 ![](./image/ctags_settings_2.png)
+
+------
 
 ## Atom 改成 VS code look and feel
 
@@ -161,7 +163,7 @@
    ]
    ```
 
-
+------
 
 ## Auto Reveal in Tree-View
 
@@ -170,6 +172,8 @@
 ![](./image/Auto_Reveal1.png)
 
 ![](./image/Auto_Reveal2.png)
+
+------
 
 ## File list字形加大
 
@@ -184,7 +188,7 @@
 }
 ```
 
-
+------
 
 ## Git Time Machine
 這是你的工作目錄是checkout出來有.git目錄時可以用的
